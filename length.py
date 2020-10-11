@@ -27,16 +27,19 @@ def cm_to_inch_helper():
 # Converter functions
 def inch_to_cm(inch):
     print(f'{inch} inch in cm is: {inch*2.54} cm')
+    print("Converted the inch to cm")
 
 
 def cm_to_inch(cm):
     print(f'{cm} cm in inch is: {cm/2.54} inch')
+    print("Converted the cm to inch")
+
 
 
 if __name__ == "__main__":
     main()
 
-    
+
 # args parser for cm to mm converter
 parser.add_argument('--cm-to-mm', type=float, dest="cm_to_mm")
 
